@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import FemCard from "../components/FemCard";
 
+import { femProductImgDesktop } from "../assets";
+
 //----------------------------------------------------------
 
 const Home = () => {
@@ -18,8 +20,52 @@ const Home = () => {
         </p>
       </div>
       <div className="border-b border-bunker-gray-400 w-full h-10 mt-10" />
-      <div className="flex items-start">
-        <FemCard />
+      <div className="flex flex-wrap items-start py-16">
+        <FemCard
+          femId="fem-product-card"
+          imgURL={femProductImgDesktop}
+          femNum="project-01"
+          femTitle="Product preview card"
+          femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
+            to build responsive projects."
+          femCategory="Newbie"
+        />
+        <FemCard
+          femId="fem-product-card"
+          imgURL={femProductImgDesktop}
+          femNum="project-01"
+          femTitle="Product preview card"
+          femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
+            to build responsive projects."
+          femCategory="Newbie"
+        />
+        <FemCard
+          femId="fem-product-card"
+          imgURL={femProductImgDesktop}
+          femNum="project-01"
+          femTitle="Product preview card"
+          femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
+            to build responsive projects."
+          femCategory="Newbie"
+        />
+        <FemCard
+          femId="fem-product-card"
+          imgURL={femProductImgDesktop}
+          femNum="project-01"
+          femTitle="Product preview card"
+          femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
+            to build responsive projects."
+          femCategory="Newbie"
+        />
+        <FemCard
+          femId="fem-product-card"
+          imgURL={femProductImgDesktop}
+          femNum="project-01"
+          femTitle="Product preview card"
+          femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
+            to build responsive projects."
+          femCategory="Newbie"
+        />
       </div>
     </div>
   );
