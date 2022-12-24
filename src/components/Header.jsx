@@ -9,15 +9,18 @@ const Header = () => {
       >
         Architech Rowee
       </a>
-      <a
-        href="https://github.com/Rowee13/fem-solutions-byrowee"
-        aria-label="fen-github-repo"
-        target="_blank"
-        rel="noreferrer noopener"
-        className="flex justify-center items-center w-10 h-10 bg-bunker-gray-700 rounded-full mr-10 border border-bunker-gray-300 cursor-pointer hover:bg-bunker-gray-400"
-      >
-        <FaGithub className="w-5 h-5 text-bunker-gray-900" />
-      </a>
+      <div className="flex flex-row font-overpass items-center gap-4">
+        <h4 className="text-bunker-gray-100">github repo</h4>
+        <a
+          href="https://github.com/Rowee13/fem-solutions-byrowee"
+          aria-label="fen-github-repo"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="flex justify-center items-center w-10 h-10 bg-bunker-gray-700 rounded-full mr-10 border border-bunker-gray-300 cursor-pointer hover:bg-bunker-gray-400"
+        >
+          <FaGithub className="w-5 h-5 text-bunker-gray-900" />
+        </a>
+      </div>
     </header>
   );
 };
