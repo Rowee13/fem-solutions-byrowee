@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { FiExternalLink } from "react-icons/fi";
 
 //----------------------------------------------------------
@@ -11,7 +13,10 @@ const FemCard = ({
   femCategory,
 }) => {
   return (
-    <div className="w-1/4 bg-bunker-gray-900 hover:bg-bunker-gray-600">
+    <Link
+      to={femId}
+      className="w-1/4 bg-bunker-gray-900 hover:bg-bunker-gray-800"
+    >
       <div className="rounded-lg overflow-hidden m-4">
         <img src={imgURL} alt={femNum} />
       </div>
@@ -36,7 +41,7 @@ const FemCard = ({
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

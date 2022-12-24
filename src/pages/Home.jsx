@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import FemCard from "../components/FemCard";
 
-import { femProductImgDesktop } from "../assets";
+import { femProductCardImg } from "../assets";
 
 //----------------------------------------------------------
 
@@ -23,43 +23,7 @@ const Home = () => {
       <div className="flex flex-wrap items-start py-16">
         <FemCard
           femId="fem-product-card"
-          imgURL={femProductImgDesktop}
-          femNum="project-01"
-          femTitle="Product preview card"
-          femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
-            to build responsive projects."
-          femCategory="Newbie"
-        />
-        <FemCard
-          femId="fem-product-card"
-          imgURL={femProductImgDesktop}
-          femNum="project-01"
-          femTitle="Product preview card"
-          femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
-            to build responsive projects."
-          femCategory="Newbie"
-        />
-        <FemCard
-          femId="fem-product-card"
-          imgURL={femProductImgDesktop}
-          femNum="project-01"
-          femTitle="Product preview card"
-          femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
-            to build responsive projects."
-          femCategory="Newbie"
-        />
-        <FemCard
-          femId="fem-product-card"
-          imgURL={femProductImgDesktop}
-          femNum="project-01"
-          femTitle="Product preview card"
-          femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
-            to build responsive projects."
-          femCategory="Newbie"
-        />
-        <FemCard
-          femId="fem-product-card"
-          imgURL={femProductImgDesktop}
+          imgURL={femProductCardImg}
           femNum="project-01"
           femTitle="Product preview card"
           femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
