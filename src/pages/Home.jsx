@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import FemCard from "../components/FemCard";
 
-import { femProductCardImg } from "../assets";
+import { femProductCardImg, femRatingCardImg } from "../assets";
 
 //----------------------------------------------------------
 
@@ -28,6 +28,14 @@ const Home = () => {
           femTitle="Product preview card"
           femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
             to build responsive projects."
+          femCategory="Newbie"
+        />
+        <FemCard
+          femId="fem-rating-component"
+          imgURL={femRatingCardImg}
+          femNum="project-02"
+          femTitle="Interactive rating component"
+          femDescription="This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"
           femCategory="Newbie"
         />
       </div>

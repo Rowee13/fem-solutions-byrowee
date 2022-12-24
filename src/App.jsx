@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 
-import { FemProductCard } from "./pages";
+import { FemProductCard, FemRatingComponent } from "./pages";
 
 //----------------------------------------------------------
 
@@ -13,6 +13,7 @@ const AppRoutes = () => {
         <Route path="/">
           <Route index element={<Home />} />
           <Route path="fem-product-card" element={<FemProductCard />} />
+          <Route path="fem-rating-component" element={<FemRatingComponent />} />
         </Route>
       </Routes>
     </div>
