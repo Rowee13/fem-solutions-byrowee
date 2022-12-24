@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import FemCard from "../components/FemCard";
+import Footer from "../components/Footer";
 
 import {
   femProductCardImg,
@@ -60,6 +61,7 @@ const Home = () => {
           femCategory="Newbie"
         />
       </div>
+      <Footer />
     </div>
   );
 };
