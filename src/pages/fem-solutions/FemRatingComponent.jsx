@@ -110,7 +110,7 @@ const FemRatingComponent = () => {
         <p>
           Coded by{" "}
           <Link
-            to="/my-playground/fem-challenges"
+            to="/"
             className="cursor-pointer font-bold text-slate-50 hover:text-fem-02-primary"
           >
             Rowee

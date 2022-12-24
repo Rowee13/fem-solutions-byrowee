@@ -1,7 +1,11 @@
 import Header from "../components/Header";
 import FemCard from "../components/FemCard";
 
-import { femProductCardImg, femRatingCardImg } from "../assets";
+import {
+  femProductCardImg,
+  femRatingCardImg,
+  femNftPreviewCardImg,
+} from "../assets";
 
 //----------------------------------------------------------
 
@@ -36,6 +40,14 @@ const Home = () => {
           femNum="project-02"
           femTitle="Interactive rating component"
           femDescription="This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"
+          femCategory="Newbie"
+        />
+        <FemCard
+          femId="fem-nft-preview-card"
+          imgURL={femNftPreviewCardImg}
+          femNum="project-03"
+          femTitle="NFT preview card component"
+          femDescription="This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with."
           femCategory="Newbie"
         />
       </div>

@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 
-import { FemProductCard, FemRatingComponent } from "./pages";
+import { FemNftPreviewCard, FemProductCard, FemRatingComponent } from "./pages";
 
 //----------------------------------------------------------
 
@@ -14,6 +14,7 @@ const AppRoutes = () => {
           <Route index element={<Home />} />
           <Route path="fem-product-card" element={<FemProductCard />} />
           <Route path="fem-rating-component" element={<FemRatingComponent />} />
+          <Route path="fem-nft-preview-card" element={<FemNftPreviewCard />} />
         </Route>
       </Routes>
     </div>

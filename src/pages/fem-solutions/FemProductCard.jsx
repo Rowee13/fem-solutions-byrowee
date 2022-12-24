@@ -71,7 +71,7 @@ const FemProductCard = () => {
         <p>
           Coded by{" "}
           <Link
-            to="/my-playground/fem-challenges"
+            to="/"
             className="cursor-pointer font-bold text-fem-01-light hover:text-fem-01-dark"
           >
             Rowee

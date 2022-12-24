@@ -15,10 +15,14 @@ const FemCard = ({
   return (
     <Link
       to={femId}
-      className="w-1/4 bg-bunker-gray-900 hover:bg-bunker-gray-800"
+      className="w-1/4 bg-bunker-gray-900 hover:bg-bunker-gray-800 hover:scale-105 transition-all ease-in-out duration-150 delay-100"
     >
-      <div className="rounded-lg overflow-hidden m-4">
-        <img src={imgURL} alt={femNum} />
+      <div className="rounded-lg h-48 overflow-hidden m-4">
+        <img
+          src={imgURL}
+          alt={femNum}
+          className="object-cover object-center h-full w-full"
+        />
       </div>
       <div className="flex flex-col px-5 pb-5 justify-between w-full">
         <div className="flex flex-col justify-center items-start pb-6">
