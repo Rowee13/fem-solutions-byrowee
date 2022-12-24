@@ -5,6 +5,7 @@ import {
   femProductCardImg,
   femRatingCardImg,
   femNftPreviewCardImg,
+  femOrderSumImg,
 } from "../assets";
 
 //----------------------------------------------------------
@@ -48,6 +49,14 @@ const Home = () => {
           femNum="project-03"
           femTitle="NFT preview card component"
           femDescription="This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with."
+          femCategory="Newbie"
+        />
+        <FemCard
+          femId="fem-order-summary"
+          imgURL={femOrderSumImg}
+          femNum="project-04"
+          femTitle="Order summary component"
+          femDescription="A perfect project for newbies who are starting to build confidence with layouts!"
           femCategory="Newbie"
         />
       </div>

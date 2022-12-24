@@ -24,7 +24,7 @@ const FemCard = ({
           className="object-cover object-center h-full w-full"
         />
       </div>
-      <div className="flex flex-col px-5 pb-5 justify-between w-full">
+      <div className="flex flex-col px-5 pb-5 justify-between w-full h-56">
         <div className="flex flex-col justify-center items-start pb-6">
           <h3 className="font-extrabold text-xl pb-3 line-clamp-1">
             {femTitle}
