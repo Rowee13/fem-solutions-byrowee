@@ -9,6 +9,7 @@ import {
   femOrderSumImg,
   femStatsCardImg,
   fem3colCardImg,
+  femIntroSignupImg,
 } from "../assets";
 
 //----------------------------------------------------------
@@ -77,6 +78,14 @@ const Home = () => {
           femNum="project-06"
           femTitle="3-column preview card component"
           femDescription="This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects."
+          femCategory="Newbie"
+        />
+        <FemCard
+          femId="fem-intro-signup-form"
+          imgURL={femIntroSignupImg}
+          femNum="project-07"
+          femTitle="Intro component with sign-up form"
+          femDescription="Practice building out a sign-up form complete with client-side validation using JavaScript."
           femCategory="Newbie"
         />
       </div>

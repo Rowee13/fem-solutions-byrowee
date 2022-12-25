@@ -31,6 +31,10 @@ import fem3colIconSedan from "./fem-06/icon-sedans.svg";
 import fem3colIconSuvs from "./fem-06/icon-suvs.svg";
 import fem3colIconLuxury from "./fem-06/icon-suvs.svg";
 
+//? ===================== fem 07 ===================== ?//
+import femIntroSignupImg from "./fem-07/intro-signup-img.jpg";
+import femIntroErrorIcon from "./fem-07/icon-error.svg";
+
 export {
   femProductCardImg,
   femProductImgDesktop,
@@ -53,4 +57,6 @@ export {
   fem3colIconSedan,
   fem3colIconSuvs,
   fem3colIconLuxury,
+  femIntroSignupImg,
+  femIntroErrorIcon,
 };

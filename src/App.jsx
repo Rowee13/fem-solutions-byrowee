@@ -9,6 +9,7 @@ import {
   FemOrderSummary,
   FemStatsPreviewCard,
   Fem3ColCard,
+  FemIntroSignupForm,
 } from "./pages";
 
 //----------------------------------------------------------
@@ -28,6 +29,10 @@ const AppRoutes = () => {
             element={<FemStatsPreviewCard />}
           />
           <Route path="fem-3col-card" element={<Fem3ColCard />} />
+          <Route
+            path="fem-intro-signup-form"
+            element={<FemIntroSignupForm />}
+          />
         </Route>
       </Routes>
     </div>

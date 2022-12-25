@@ -85,8 +85,8 @@ module.exports = {
           "url('./assets/fem-04/pattern-background-desktop.svg')",
         "fem-ordersumbg-mobile":
           "url('./assets/fem-04/pattern-background-mobile.svg')",
-        "fem-introbg-desktop": "url('./assets/fem/bg-intro-desktop.png')",
-        "fem-introbg-mobile": "url('./assets/fem/bg-intro-mobile.png')",
+        "fem-introbg-desktop": "url('./assets/fem-07/bg-intro-desktop.png')",
+        "fem-introbg-mobile": "url('./assets/fem-07/bg-intro-mobile.png')",
         "fem-interactive-card-front": "url('./assets/fem/bg-card-front.png')",
         "fem-interactive-card-back": "url('./assets/fem/bg-card-back.png')",
       },

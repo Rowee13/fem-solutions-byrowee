@@ -4,6 +4,7 @@ import FemNftPreviewCard from "./fem-solutions/FemNftPreviewCard";
 import FemOrderSummary from "./fem-solutions/FemOrderSummary";
 import FemStatsPreviewCard from "./fem-solutions/FemStatsPreviewCard";
 import Fem3ColCard from "./fem-solutions/Fem3ColCard";
+import FemIntroSignupForm from "./fem-solutions/FemIntroSignupForm";
 
 export {
   FemProductCard,
@@ -12,4 +13,5 @@ export {
   FemOrderSummary,
   FemStatsPreviewCard,
   Fem3ColCard,
+  FemIntroSignupForm,
 };
