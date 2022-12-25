@@ -8,6 +8,7 @@ import {
   FemRatingComponent,
   FemOrderSummary,
   FemStatsPreviewCard,
+  Fem3ColCard,
 } from "./pages";
 
 //----------------------------------------------------------
@@ -26,6 +27,7 @@ const AppRoutes = () => {
             path="fem-stats-preview-card"
             element={<FemStatsPreviewCard />}
           />
+          <Route path="fem-3col-card" element={<Fem3ColCard />} />
         </Route>
       </Routes>
     </div>

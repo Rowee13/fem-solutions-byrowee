@@ -22,9 +22,14 @@ import femOrderHeroImg from "./fem-04/illustration-hero.svg";
 import femOrderMusicIcon from "./fem-04/icon-music.svg";
 
 //? ===================== fem 05 ===================== ?//
-
 import femStatsCardImg from "./fem-05/stats-card-img.jpg";
 import femStatsHeroImg from "./fem-05/stats-hero-image.jpg";
+
+//? ===================== fem 06 ===================== ?//
+import fem3colCardImg from "./fem-06/3col-card-img.jpg";
+import fem3colIconSedan from "./fem-06/icon-sedans.svg";
+import fem3colIconSuvs from "./fem-06/icon-suvs.svg";
+import fem3colIconLuxury from "./fem-06/icon-suvs.svg";
 
 export {
   femProductCardImg,
@@ -44,4 +49,8 @@ export {
   femOrderMusicIcon,
   femStatsCardImg,
   femStatsHeroImg,
+  fem3colCardImg,
+  fem3colIconSedan,
+  fem3colIconSuvs,
+  fem3colIconLuxury,
 };
