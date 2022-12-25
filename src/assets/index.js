@@ -46,6 +46,9 @@ import femInteractiveCardLogo from "./fem-08/card-logo.svg";
 
 //? ===================== fem 08 ===================== ?//
 import femAdviceGenImg from "./fem-09/advice-generator-img.jpg";
+import femAdviceDividerDesktop from "./fem-09/pattern-divider-desktop.svg";
+import femAdviceDividerMobile from "./fem-09/pattern-divider-mobile.svg";
+import femAdviceDiceIcon from "./fem-09/icon-dice.svg";
 
 export {
   femProductCardImg,
@@ -79,4 +82,7 @@ export {
   femInteractiveIconComplete,
   femInteractiveCardLogo,
   femAdviceGenImg,
+  femAdviceDividerDesktop,
+  femAdviceDividerMobile,
+  femAdviceDiceIcon,
 };

@@ -84,6 +84,7 @@ module.exports = {
         lexenddeca: ["Lexend Deca", "sans-serif"],
         bigshoulder: ["Big Shoulders Display", "display"],
         spacegrotesk: ["Space Grotesk", "display"],
+        manrope: ["Manrope", "display"],
       },
       backgroundImage: {
         "fem-ordersumbg-desktop":
@@ -103,6 +104,7 @@ module.exports = {
         "fem-07-btn": "0px 8px 2px 0px rgba(62,60,73,0.30)",
         "fem-07-primary-btn": "1px 6px 2px 0px rgba(84,171,133,1)",
         "fem-08-card-shaodw": "0px 40px 55px 1px rgba(0,0,0,0.25)",
+        "fem-09-btn-shaodw": "0px 0px 36px 10px rgba(82,255,168,0.75);",
       },
     },
   },
