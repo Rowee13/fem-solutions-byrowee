@@ -10,6 +10,7 @@ import {
   femStatsCardImg,
   fem3colCardImg,
   femIntroSignupImg,
+  femInteractiveCardImg,
 } from "../assets";
 
 //----------------------------------------------------------
@@ -87,6 +88,14 @@ const Home = () => {
           femTitle="Intro component with sign-up form"
           femDescription="Practice building out a sign-up form complete with client-side validation using JavaScript."
           femCategory="Newbie"
+        />
+        <FemCard
+          femId="fem-interactive-card"
+          imgURL={femInteractiveCardImg}
+          femNum="project-08"
+          femTitle="Interactive card details form"
+          femDescription="This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test."
+          femCategory="Junior"
         />
       </div>
       <Footer />

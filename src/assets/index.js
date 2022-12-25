@@ -35,6 +35,15 @@ import fem3colIconLuxury from "./fem-06/icon-suvs.svg";
 import femIntroSignupImg from "./fem-07/intro-signup-img.jpg";
 import femIntroErrorIcon from "./fem-07/icon-error.svg";
 
+//? ===================== fem 07 ===================== ?//
+import femInteractiveCardImg from "./fem-08/interactive-card-img.jpg";
+import femInteractiveMainBg from "./fem-08/inter-bgmain-desktop.png";
+import femInteractiveMobileBg from "./fem-08/inter-bgmain-mobile.png";
+import femInteractiveCardFront from "./fem-08/bg-card-front.png";
+import femInteractiveCardBack from "./fem-08/bg-card-back.png";
+import femInteractiveIconComplete from "./fem-08/icon-complete.svg";
+import femInteractiveCardLogo from "./fem-08/card-logo.svg";
+
 export {
   femProductCardImg,
   femProductImgDesktop,
@@ -59,4 +68,11 @@ export {
   fem3colIconLuxury,
   femIntroSignupImg,
   femIntroErrorIcon,
+  femInteractiveCardImg,
+  femInteractiveMainBg,
+  femInteractiveMobileBg,
+  femInteractiveCardFront,
+  femInteractiveCardBack,
+  femInteractiveIconComplete,
+  femInteractiveCardLogo,
 };
