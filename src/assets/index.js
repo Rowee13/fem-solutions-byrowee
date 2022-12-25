@@ -44,6 +44,9 @@ import femInteractiveCardBack from "./fem-08/bg-card-back.png";
 import femInteractiveIconComplete from "./fem-08/icon-complete.svg";
 import femInteractiveCardLogo from "./fem-08/card-logo.svg";
 
+//? ===================== fem 08 ===================== ?//
+import femAdviceGenImg from "./fem-09/advice-generator-img.jpg";
+
 export {
   femProductCardImg,
   femProductImgDesktop,
@@ -75,4 +78,5 @@ export {
   femInteractiveCardBack,
   femInteractiveIconComplete,
   femInteractiveCardLogo,
+  femAdviceGenImg,
 };

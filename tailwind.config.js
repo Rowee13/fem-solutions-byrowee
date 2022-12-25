@@ -63,6 +63,11 @@ module.exports = {
         "fem-08-error": "hsl(0, 100%, 66%)",
         "fem-08-linear-grad1": "hsl(249, 99%, 64%)",
         "fem-08-linear-grad2": "hsl(278, 94%, 30%)",
+        "fem-09-light-cyan": "hsl(193, 38%, 86%)",
+        "fem-09-neon-green": "hsl(150, 100%, 66%)",
+        "fem-09-gray-blue": "hsl(217, 19%, 38%)",
+        "fem-09-dgray-blue": "hsl(217, 19%, 24%)",
+        "fem-09-dark-blue": "hsl(218, 23%, 16%)",
       },
       fontFamily: {
         oswald: ["Oswald", "sans-serif"],

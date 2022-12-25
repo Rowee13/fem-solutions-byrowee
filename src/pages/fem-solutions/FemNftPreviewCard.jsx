@@ -9,6 +9,8 @@ import {
   femNftImgAvatar,
 } from "../../assets";
 
+//-------------------------------------------------------------------
+
 const FemNftPreviewCard = () => {
   return (
     <div className="flex relative justify-center items-center font-outfit h-screen overflow-hidden bg-fem-03-mainbg">

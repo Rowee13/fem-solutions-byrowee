@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-
 import { FiExternalLink } from "react-icons/fi";
+
+import BadgeCategory from "./BadgeCategory";
 
 //----------------------------------------------------------
 
@@ -11,6 +12,7 @@ const FemCard = ({
   femTitle,
   femDescription,
   femCategory,
+  categoryColor,
 }) => {
   return (
     <Link
@@ -32,9 +34,10 @@ const FemCard = ({
           </p>
         </div>
         <div className="flex flex-row gap-3 justify-between pt-5">
-          <div className="flex bg-transparent border border-teal-500 uppercase items-center px-4 sm:px-6 rounded-lg text-teal-500">
-            {femCategory}
-          </div>
+          <BadgeCategory
+            femCategory={femCategory}
+            categoryColor={categoryColor}
+          />
           <div>
             <button className="flex flex-row justify-center items-center bg-bunker-gray-900 py-2 px-4 sm:px-7 rounded-lg gap-2 font-bold hover:scale-110">
               <FiExternalLink className="w-4 h-4" />
