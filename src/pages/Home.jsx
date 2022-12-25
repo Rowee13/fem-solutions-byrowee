@@ -17,10 +17,10 @@ import {
 
 const Home = () => {
   return (
-    <div className="p-5 mx-24 text-slate-50 text-center bg-bunker-gray-700">
+    <div className="flex flex-col lg:p-5 mx-0 xl:mx-24 text-slate-50 text-center bg-bunker-gray-700">
       <Header />
-      <div className="flex flex-col items-center w-full px-52">
-        <h1 className="font-lexenddeca font-black text-4xl  pt-28">
+      <div className="flex flex-col items-center px-5 w-full lg:px-52">
+        <h1 className="font-lexenddeca font-black text-3xl lg:text-4xl pt-28">
           Welcome to my frontend mentor solutions page!
         </h1>
         <p className="pt-3 text-slate-400 font-poppins">
@@ -31,7 +31,7 @@ const Home = () => {
         </p>
       </div>
       <div className="border-b border-bunker-gray-400 w-full h-10 mt-10" />
-      <div className="flex flex-wrap items-start py-16">
+      <div className="flex flex-col md:flex-row flex-wrap items-start py-16">
         <FemCard
           femId="fem-product-card"
           imgURL={femProductCardImg}
