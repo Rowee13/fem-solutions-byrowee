@@ -7,6 +7,7 @@ import {
   FemProductCard,
   FemRatingComponent,
   FemOrderSummary,
+  FemStatsPreviewCard,
 } from "./pages";
 
 //----------------------------------------------------------
@@ -21,6 +22,10 @@ const AppRoutes = () => {
           <Route path="fem-rating-component" element={<FemRatingComponent />} />
           <Route path="fem-nft-preview-card" element={<FemNftPreviewCard />} />
           <Route path="fem-order-summary" element={<FemOrderSummary />} />
+          <Route
+            path="fem-stats-preview-card"
+            element={<FemStatsPreviewCard />}
+          />
         </Route>
       </Routes>
     </div>

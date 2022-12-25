@@ -21,6 +21,11 @@ import femOrderSumImg from "./fem-04/order-summary-img.jpg";
 import femOrderHeroImg from "./fem-04/illustration-hero.svg";
 import femOrderMusicIcon from "./fem-04/icon-music.svg";
 
+//? ===================== fem 05 ===================== ?//
+
+import femStatsCardImg from "./fem-05/stats-card-img.jpg";
+import femStatsHeroImg from "./fem-05/stats-hero-image.jpg";
+
 export {
   femProductCardImg,
   femProductImgDesktop,
@@ -37,4 +42,6 @@ export {
   femOrderSumImg,
   femOrderHeroImg,
   femOrderMusicIcon,
+  femStatsCardImg,
+  femStatsHeroImg,
 };
