@@ -40,7 +40,7 @@ const FemAdviceGenerator = () => {
       <div className="flex flex-col relative w-full md:w-2/3 lg:w-1/3 h-2/5 lg:h-2/5 mx-5 px-6 py-16 bg-fem-09-dgray-blue rounded-xl justify-between items-center text-center font-manrope">
         {Object.keys(getAdvice).length > 0 ? (
           <div className="px-4">
-            <h3 className="uppercase text-fem-09-neon-green font-bold text-sm pb-4">
+            <h3 className="uppercase text-fem-09-neon-green font-bold text-sm pb-4 tracking-[0.3rem]">
               Advice #{getAdvice.slip.id}
             </h3>
             <h1 className="text-2xl text-fem-09-light-cyan font-bold pb-6">

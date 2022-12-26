@@ -17,7 +17,7 @@ const FemCard = ({
   return (
     <Link
       to={femId}
-      className="w-full md:w-2/4 lg:w-1/3 xl:w-1/4 bg-bunker-gray-900 hover:bg-bunker-gray-800 hover:scale-105 transition-all ease-in-out duration-150 delay-100 border border-bunker-gray-700"
+      className="w-full md:w-2/4 lg:w-1/3 xl:w-1/4 3xl:w-1/6 bg-bunker-gray-900 hover:bg-bunker-gray-800 hover:scale-105 transition-all ease-in-out duration-150 delay-100 border border-bunker-gray-700"
     >
       <div className="rounded-lg h-48 overflow-hidden m-4">
         <img
@@ -39,7 +39,7 @@ const FemCard = ({
             categoryColor={categoryColor}
           />
           <div>
-            <button className="flex flex-row justify-center items-center bg-bunker-gray-900 py-2 px-4 sm:px-7 rounded-lg gap-2 font-bold hover:scale-110">
+            <button className="flex flex-row justify-center items-center bg-bunker-gray-900 py-2 px-4 sm:px-7 rounded-lg gap-2 font-bold hover:scale-110 border border-bunker-gray-500">
               <FiExternalLink className="w-4 h-4" />
               View
             </button>

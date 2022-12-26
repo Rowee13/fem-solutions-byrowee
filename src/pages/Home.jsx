@@ -12,6 +12,7 @@ import {
   femIntroSignupImg,
   femInteractiveCardImg,
   femAdviceGenImg,
+  femIntroSectionImg,
 } from "../assets";
 
 //----------------------------------------------------------
@@ -112,6 +113,15 @@ const Home = () => {
           femNum="project-09"
           femTitle="Advice generator app"
           femDescription="The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice."
+          femCategory="Junior"
+          categoryColor="palegreen"
+        />
+        <FemCard
+          femId="fem-intro-section"
+          imgURL={femIntroSectionImg}
+          femNum="project-10"
+          femTitle="Intro section with dropdown navigation"
+          femDescription="This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges."
           femCategory="Junior"
           categoryColor="palegreen"
         />

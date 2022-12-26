@@ -50,6 +50,16 @@ import femAdviceDividerDesktop from "./fem-09/pattern-divider-desktop.svg";
 import femAdviceDividerMobile from "./fem-09/pattern-divider-mobile.svg";
 import femAdviceDiceIcon from "./fem-09/icon-dice.svg";
 
+//? ===================== fem 08 ===================== ?//
+import femIntroSectionImg from "./fem-10/intro-section-img.jpg";
+import femIntroHeroDesktop from "./fem-10/image-hero-desktop.png";
+import femIntroHeroMobile from "./fem-10/image-hero-mobile.png";
+import femIntroLogo from "./fem-10/logo.svg";
+import femIntroAudiophile from "./fem-10/client-audiophile.svg";
+import femIntroDatabiz from "./fem-10/client-databiz.svg";
+import femIntroMaker from "./fem-10/client-maker.svg";
+import femIntroMeet from "./fem-10/client-meet.svg";
+
 export {
   femProductCardImg,
   femProductImgDesktop,
@@ -85,4 +95,12 @@ export {
   femAdviceDividerDesktop,
   femAdviceDividerMobile,
   femAdviceDiceIcon,
+  femIntroSectionImg,
+  femIntroHeroDesktop,
+  femIntroHeroMobile,
+  femIntroLogo,
+  femIntroAudiophile,
+  femIntroDatabiz,
+  femIntroMaker,
+  femIntroMeet,
 };

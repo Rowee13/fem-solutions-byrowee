@@ -68,6 +68,9 @@ module.exports = {
         "fem-09-gray-blue": "hsl(217, 19%, 38%)",
         "fem-09-dgray-blue": "hsl(217, 19%, 24%)",
         "fem-09-dark-blue": "hsl(218, 23%, 16%)",
+        "fem-10-white": "hsl(0, 0%, 98%)",
+        "fem-10-gray": "hsl(0, 0%, 41%)",
+        "fem-10-black": "hsl(0, 0%, 8%)",
       },
       fontFamily: {
         oswald: ["Oswald", "sans-serif"],
@@ -85,6 +88,7 @@ module.exports = {
         bigshoulder: ["Big Shoulders Display", "display"],
         spacegrotesk: ["Space Grotesk", "display"],
         manrope: ["Manrope", "display"],
+        epilogue: ["Epilogue", "display"],
       },
       backgroundImage: {
         "fem-ordersumbg-desktop":
