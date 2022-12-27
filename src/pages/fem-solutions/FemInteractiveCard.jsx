@@ -58,14 +58,14 @@ const FemInteractiveCard = () => {
           <img
             src={femInteractiveCardFront}
             alt="card-front"
-            className="shadow-fem-08-card-shaodw"
+            className="shadow-fem-08-card-shadow"
           />
         </div>
         <div className="absolute top-20 lg:top-96 xl:top-[460px] left-16 md:left-60 lg:left-32 xl:left-72 right-7 lg:right-[430px] xl:right-[800px]">
           <img
             src={femInteractiveCardBack}
             alt="card-back"
-            className="shadow-fem-08-card-shaodw"
+            className="shadow-fem-08-card-shadow"
           />
         </div>
       </div>

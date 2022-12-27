@@ -59,6 +59,10 @@ import femIntroAudiophile from "./fem-10/client-audiophile.svg";
 import femIntroDatabiz from "./fem-10/client-databiz.svg";
 import femIntroMaker from "./fem-10/client-maker.svg";
 import femIntroMeet from "./fem-10/client-meet.svg";
+import femIntroIconTodo from "./fem-10/icon-todo.svg";
+import femIntroIconCalendar from "./fem-10/icon-calendar.svg";
+import femIntroIconReminder from "./fem-10/icon-reminders.svg";
+import femIntroIconPlanning from "./fem-10/icon-planning.svg";
 
 export {
   femProductCardImg,
@@ -103,4 +107,8 @@ export {
   femIntroDatabiz,
   femIntroMaker,
   femIntroMeet,
+  femIntroIconTodo,
+  femIntroIconCalendar,
+  femIntroIconReminder,
+  femIntroIconPlanning,
 };

@@ -58,7 +58,7 @@ const FemAdviceGenerator = () => {
         <img src={femAdviceDividerMobile} alt="divider" className="lg:hidden" />
         <button
           onClick={getNewAdvice}
-          className="flex absolute justify-center items-center bg-fem-09-neon-green w-14 h-14 rounded-full bottom-[-28px] hover:shadow-fem-09-btn-shaodw"
+          className="flex absolute justify-center items-center bg-fem-09-neon-green w-14 h-14 rounded-full bottom-[-28px] hover:shadow-fem-09-btn-shadow"
         >
           <img
             src={femAdviceDiceIcon}
