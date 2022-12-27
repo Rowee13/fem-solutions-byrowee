@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { IoArrowBackOutline } from "react-icons/io5";
 import { IoIosMenu } from "react-icons/io";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+// IoIosClose
 
 import {
   femIntroLogo,
@@ -26,6 +27,14 @@ const FemIntroSection = () => {
 
   return (
     <div className="flex flex-col relative bg-fem-10-white h-full sm:h-screen w-screen font-epilogue text-fem-10-gray overflow-hidden">
+      {/* == mobile side navbar == */}
+      {/* <div className="relative flex lg:hidden">
+        <div className="absolute h-screen w-screen bg-fem-10-black opacity-70 z-10" />
+        <div className="absolute w-4/6 h-screen bg-fem-10-white z-30 right-0">
+          <IoIosClose className="w-10 h-10 items-end" />
+        </div>
+      </div> */}
+
       {/* == header == */}
       <div className="flex flex-row h-20 w-full px-4 lg:px-10 items-center justify-between ">
         <div className="flex flex-row">
@@ -39,6 +48,7 @@ const FemIntroSection = () => {
                   onClick={(e) => {
                     e.preventDefault();
                     setToggleFeature(!toggleFeature);
+                    setToggleCompany(false);
                   }}
                 >
                   Feature
@@ -51,7 +61,7 @@ const FemIntroSection = () => {
                         <img
                           src={femIntroIconTodo}
                           alt="icon-todo"
-                          className="w-4 h-5"
+                          className="w-5 h-5"
                         />
                         Todo List
                       </a>
@@ -61,7 +71,7 @@ const FemIntroSection = () => {
                         <img
                           src={femIntroIconCalendar}
                           alt="icon-calendar"
-                          className="w-4 h-5"
+                          className="w-5 h-5"
                         />
                         Calendar
                       </a>
@@ -71,7 +81,7 @@ const FemIntroSection = () => {
                         <img
                           src={femIntroIconReminder}
                           alt="icon-reminder"
-                          className="w-4 h-5"
+                          className="w-5 h-5"
                         />
                         Reminders
                       </a>
@@ -81,7 +91,7 @@ const FemIntroSection = () => {
                         <img
                           src={femIntroIconPlanning}
                           alt="icon-planning"
-                          className="w-4 h-5"
+                          className="w-5 h-5"
                         />
                         Planning
                       </a>
@@ -96,6 +106,7 @@ const FemIntroSection = () => {
                   onClick={(e) => {
                     e.preventDefault();
                     setToggleCompany(!toggleCompany);
+                    setToggleFeature(false);
                   }}
                 >
                   Company

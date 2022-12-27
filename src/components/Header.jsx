@@ -1,6 +1,15 @@
+import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
+import { HiSun } from "react-icons/hi";
+import { MdDarkMode } from "react-icons/md";
 
 const Header = () => {
+  const [darkMode, setDarkMode] = useState(true);
+
+  const toggleDarkMode = () => {
+    setDarkMode((prevDarkMode) => !prevDarkMode);
+  };
+
   return (
     <header className="flex w-full h-20 lg:h-24 sticky bg-bunker-gray-900 items-center justify-between rounded-lg font-oswald border border-bunker-gray-500">
       <a
@@ -18,10 +27,20 @@ const Header = () => {
           aria-label="fen-github-repo"
           target="_blank"
           rel="noreferrer noopener"
-          className="flex justify-center items-center w-7 h-7 lg:w-10 lg:h-10 bg-bunker-gray-600 rounded-full mr-5 lg:mr-10 border border-bunker-gray-300 cursor-pointer hover:bg-bunker-gray-400"
+          className="flex justify-center items-center w-7 h-7 lg:w-10 lg:h-10 bg-bunker-gray-600 rounded-full border border-bunker-gray-300 cursor-pointer hover:bg-bunker-gray-400"
         >
           <FaGithub className="w-4 h-4 lg:w-5 lg:h-5 text-bunker-gray-900" />
         </a>
+        <button
+          onClick={toggleDarkMode}
+          className="flex justify-center items-center w-7 h-7 lg:w-10 lg:h-10 bg-bunker-gray-600 rounded-full mr-5 lg:mr-10 border border-bunker-gray-300 cursor-pointer hover:bg-bunker-gray-400"
+        >
+          {darkMode ? (
+            <HiSun className="w-4 h-4 lg:w-6 lg:h-6 text-bunker-gray-900" />
+          ) : (
+            <MdDarkMode className="w-4 h-4 lg:w-6 lg:h-6 text-bunker-gray-900" />
+          )}
+        </button>
       </div>
     </header>
   );
