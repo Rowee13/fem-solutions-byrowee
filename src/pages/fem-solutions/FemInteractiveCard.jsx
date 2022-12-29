@@ -5,8 +5,6 @@ import { IoArrowBackOutline } from "react-icons/io5";
 import {
   femInteractiveMainBg,
   femInteractiveMobileBg,
-  femInteractiveCardFront,
-  femInteractiveCardBack,
   femInteractiveCardLogo,
   femInteractiveIconComplete,
 } from "../../assets";
@@ -37,9 +35,13 @@ const FemInteractiveCard = () => {
     });
   };
 
+  const isFormValid = () => {
+    return cardholderName && cardNumber && expDate && cvc;
+  };
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    setFormSubmitted(true);
+    setFormSubmitted(!formSubmitted);
   };
 
   return (
@@ -53,7 +55,7 @@ const FemInteractiveCard = () => {
       </Link>
 
       {/* == cards == */}
-      <div>
+      {/* <div>
         <div className="absolute top-48 md:top-56 lg:top-28 xl:top-44 left-5 md:left-28 lg:left-20 xl:left-44 right-16 lg:right-[400px] xl:right-[1000px] z-30">
           <img
             src={femInteractiveCardFront}
@@ -68,28 +70,28 @@ const FemInteractiveCard = () => {
             className="shadow-fem-08-card-shadow"
           />
         </div>
-      </div>
+      </div> */}
 
       {/* == cards content == */}
       <div>
-        <div className="absolute top-48 md:top-56 lg:top-28 xl:top-44 left-5 md:left-28 lg:left-20 xl:left-44 right-16 md:right-64 lg:right-[500px] xl:right-[1000px] z-30">
+        <div className="absolute w-10/12 h-48 lg:w-[450px] lg:h-64 top-48 md:top-56 lg:top-28 xl:top-44 left-5 md:left-28 lg:left-20 xl:left-44 right-16 md:right-64 lg:right-[500px] xl:right-[1000px] z-30 rounded-lg bg-fem-interactive-card-front bg-cover overflow-hidden">
           <div className="flex flex-col text-fem-08-white p-5 md:p-7">
             <img
               src={femInteractiveCardLogo}
               alt="card-logo"
               className="w-16"
             />
-            <h1 className="font-bold text-lg md:text-2xl lg:text-3xl tracking-wider pt-9 sm:pt-14 md:pt-24 lg:pt-16">
+            <h1 className="font-bold text-lg md:text-2xl lg:text-3xl tracking-wider pt-9 sm:pt-14 md:pt-24 lg:pt-20">
               {cardNumber}
             </h1>
-            <div className="flex flex-row justify-between items-center text-xs md:text-sm font-semibold pt-1   lg:pt-6">
+            <div className="flex flex-row justify-between items-center text-xs md:text-sm font-semibold pt-1   lg:pt-7">
               <h4 className="uppercase">{cardholderName}</h4>
               <p>{`${expDate.month}/${expDate.year}`}</p>
             </div>
           </div>
         </div>
-        <div className="absolute top-20 lg:top-96 xl:top-[460px] left-16 md:left-60 lg:left-32 xl:left-72 right-7 lg:right-[430px] xl:right-[800px]">
-          <h4 className="text-fem-08-white absolute sm:top-[75px] xl:top-[108px] sm:right-10 xl:right-32 font-bold">
+        <div className="absolute w-10/12 h-48 lg:w-[450px] lg:h-64 top-20 lg:top-96 xl:top-[460px] left-14   md:left-60 lg:left-32 xl:left-72 right-7 lg:right-[430px] xl:right-[800px] bg-fem-interactive-card-back bg-cover overflow-hidden rounded-lg">
+          <h4 className="text-fem-08-white absolute sm:top-[80px] xl:top-28 sm:right-10 xl:right-12 font-bold">
             {cvc}
           </h4>
         </div>
@@ -215,14 +217,17 @@ const FemInteractiveCard = () => {
                   />
                   {cvc.length !== 3 || cvc.length === 0 ? (
                     <h5 className="text-fem-08-error text-sm">
-                      Can't be blank.
+                      CVC must be 3 digit.
                     </h5>
                   ) : (
                     ""
                   )}
                 </div>
               </div>
-              <button className="w-full py-3 lg:py-4 mt-2 lg:mt-6 font-bold bg-fem-08-dark-violet text-fem-08-white rounded-lg hover:bg-opacity-80">
+              <button
+                disabled={!isFormValid()}
+                className="w-full py-3 lg:py-4 mt-2 lg:mt-6 font-bold bg-fem-08-dark-violet text-fem-08-white rounded-lg hover:bg-opacity-80"
+              >
                 Confirm
               </button>
             </form>

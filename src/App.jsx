@@ -19,7 +19,7 @@ import {
 
 const AppRoutes = () => {
   return (
-    <div className="flex flex-col h-full bg-bunker-gray-900">
+    <div className="flex flex-col h-full bg-home-bg bg-contain">
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />

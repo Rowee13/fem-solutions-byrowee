@@ -17,7 +17,7 @@ const FemCard = ({
   return (
     <Link
       to={femId}
-      className="w-full md:w-2/4 lg:w-1/3 xl:w-1/4 3xl:w-1/6 bg-bunker-gray-900 hover:bg-bunker-gray-800 hover:scale-105 transition-all ease-in-out duration-150 delay-100 border border-bunker-gray-700"
+      className="w-full md:w-2/4 lg:w-1/3 xl:w-1/4 3xl:w-1/6 bg-bunker-gray-900 hover:bg-bunker-gray-800 hover:scale-110 transition-all ease-in-out duration-300 delay-150 border border-bunker-gray-700"
     >
       <div className="rounded-lg h-48 overflow-hidden m-4">
         <img
@@ -28,8 +28,8 @@ const FemCard = ({
       </div>
       <div className="flex flex-col px-5 pb-5 justify-between w-full h-56">
         <div className="flex flex-col text-left pb-6">
-          <h3 className="font-extrabold   text-xl line-clamp-1">{femTitle}</h3>
-          <p className="font-light text-justify pt-3 text-gray-400 line-clamp-3 text-sm">
+          <h3 className="font-extrabold text-xl line-clamp-1">{femTitle}</h3>
+          <p className="font-light text-justify pt-3 text-zinc-400 line-clamp-3 text-sm">
             {femDescription}
           </p>
         </div>

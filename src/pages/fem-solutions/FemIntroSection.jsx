@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IoArrowBackOutline } from "react-icons/io5";
 import { IoIosMenu } from "react-icons/io";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-// IoIosClose
+//IoIosClose
 
 import {
   femIntroLogo,
@@ -24,14 +24,20 @@ import {
 const FemIntroSection = () => {
   const [toggleFeature, setToggleFeature] = useState(false);
   const [toggleCompany, setToggleCompany] = useState(false);
+  // const [toggleMobileNavbar, setToggleMobileNavbar] = useState(false);
 
   return (
     <div className="flex flex-col relative bg-fem-10-white h-full sm:h-screen w-screen font-epilogue text-fem-10-gray overflow-hidden">
       {/* == mobile side navbar == */}
-      {/* <div className="relative flex lg:hidden">
-        <div className="absolute h-screen w-screen bg-fem-10-black opacity-70 z-10" />
-        <div className="absolute w-4/6 h-screen bg-fem-10-white z-30 right-0">
-          <IoIosClose className="w-10 h-10 items-end" />
+      {/* <div className="absolute flex lg:hidden">
+        <div className="h-screen w-screen bg-fem-10-black opacity-70 z-10" />
+        <div className="w-4/6 h-screen bg-fem-10-white z-30 right-0">
+          <button
+            onClick={() => setToggleMobileNavbar(!toggleMobileNavbar)}
+            className="bg-slate-500"
+          >
+            <IoIosClose className="w-10 h-10 items-end" />
+          </button>
         </div>
       </div> */}
 

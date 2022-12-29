@@ -91,6 +91,7 @@ module.exports = {
         epilogue: ["Epilogue", "display"],
       },
       backgroundImage: {
+        "home-bg": "url('./assets/background-destination-desktop.jpg')",
         "fem-ordersumbg-desktop":
           "url('./assets/fem-04/pattern-background-desktop.svg')",
         "fem-ordersumbg-mobile":
