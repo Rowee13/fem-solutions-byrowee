@@ -27,3 +27,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*  animation for fem-01 intro section  */
+.slide-left {
+  -webkit-animation: slide-left 0.2s linear both;
+  animation: slide-left 0.2s linear both;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}

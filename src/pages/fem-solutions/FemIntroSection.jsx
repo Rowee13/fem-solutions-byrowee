@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { IoArrowBackOutline } from "react-icons/io5";
-import { IoIosMenu } from "react-icons/io";
+import { IoIosMenu, IoIosClose } from "react-icons/io";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-//IoIosClose
 
 import {
   femIntroLogo,
@@ -24,22 +23,159 @@ import {
 const FemIntroSection = () => {
   const [toggleFeature, setToggleFeature] = useState(false);
   const [toggleCompany, setToggleCompany] = useState(false);
-  // const [toggleMobileNavbar, setToggleMobileNavbar] = useState(false);
+  const [toggleMobileNavbar, setToggleMobileNavbar] = useState(false);
 
   return (
     <div className="flex flex-col relative bg-fem-10-white h-full sm:h-screen w-screen font-epilogue text-fem-10-gray overflow-hidden">
       {/* == mobile side navbar == */}
-      {/* <div className="absolute flex lg:hidden">
-        <div className="h-screen w-screen bg-fem-10-black opacity-70 z-10" />
-        <div className="w-4/6 h-screen bg-fem-10-white z-30 right-0">
-          <button
+      {toggleMobileNavbar && (
+        <div className="flex absolute lg:hidden slide-left">
+          <div
             onClick={() => setToggleMobileNavbar(!toggleMobileNavbar)}
-            className="bg-slate-500"
-          >
-            <IoIosClose className="w-10 h-10 items-end" />
-          </button>
+            className="flex h-screen w-screen bg-fem-10-black opacity-70 z-10 overflow-hidden"
+          />
+          <div className="flex flex-col justify-start absolute w-4/6 h-screen bg-fem-10-white z-30 right-0 pr-2">
+            <button
+              onClick={() => setToggleMobileNavbar(!toggleMobileNavbar)}
+              className="flex h-20 items-center place-content-end"
+            >
+              <IoIosClose className="w-14 h-14" />
+            </button>
+            <div className="flex flex-col px-6">
+              <nav className="flex items-start">
+                <ul className="flex flex-col gap-y-6">
+                  <li>
+                    <a
+                      href="/fem-intro-section"
+                      className="flex flex-row items-center hover:text-fem-10-black"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setToggleFeature(!toggleFeature);
+                        setToggleCompany(false);
+                      }}
+                    >
+                      Feature
+                      <MdOutlineKeyboardArrowDown className="w-6 h-6" />
+                    </a>
+                    {toggleFeature && (
+                      <ul className="p-4">
+                        <li>
+                          <a
+                            href="/fem-intro-section"
+                            className="flex flex-row gap-4 pb-3"
+                          >
+                            <img
+                              src={femIntroIconTodo}
+                              alt="icon-todo"
+                              className="w-5 h-5"
+                            />
+                            Todo List
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/fem-intro-section"
+                            className="flex flex-row gap-4 pb-3"
+                          >
+                            <img
+                              src={femIntroIconCalendar}
+                              alt="icon-calendar"
+                              className="w-5 h-5"
+                            />
+                            Calendar
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/fem-intro-section"
+                            className="flex flex-row gap-4 pb-3"
+                          >
+                            <img
+                              src={femIntroIconReminder}
+                              alt="icon-reminder"
+                              className="w-5 h-5"
+                            />
+                            Reminders
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/fem-intro-section"
+                            className="flex flex-row gap-4"
+                          >
+                            <img
+                              src={femIntroIconPlanning}
+                              alt="icon-planning"
+                              className="w-5 h-5"
+                            />
+                            Planning
+                          </a>
+                        </li>
+                      </ul>
+                    )}
+                  </li>
+                  <li>
+                    <a
+                      href="/fem-intro-section"
+                      className="flex flex-row items-center hover:text-fem-10-black"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setToggleCompany(!toggleCompany);
+                        setToggleFeature(false);
+                      }}
+                    >
+                      Company
+                      <MdOutlineKeyboardArrowDown className="w-6 h-6" />
+                    </a>
+                    {toggleCompany && (
+                      <ul className="p-4">
+                        <li>
+                          <a
+                            href="/fem-intro-section"
+                            className="flex flex-row gap-4 pb-3"
+                          >
+                            History
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/fem-intro-section"
+                            className="flex flex-row gap-4 pb-3"
+                          >
+                            Our Team
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/fem-intro-section"
+                            className="flex flex-row gap-4"
+                          >
+                            Blog
+                          </a>
+                        </li>
+                      </ul>
+                    )}
+                  </li>
+                  <li className="hover:text-fem-10-black">
+                    <a href="/fem-intro-section">Careers</a>
+                  </li>
+                  <li className="hover:text-fem-10-black">
+                    <a href="/fem-intro-section">About</a>
+                  </li>
+                </ul>
+              </nav>
+              <div className="flex flex-col items-center lg:hidden gap-y-4 pt-7">
+                <button className="w-full px-6 py-2 hover:text-fem-10-black">
+                  Login
+                </button>
+                <button className="border-2 border-fem-10-gray w-full px-6 py-2 rounded-xl hover:border-fem-10-black hover:text-fem-10-black">
+                  Register
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div> */}
+      )}
 
       {/* == header == */}
       <div className="flex flex-row h-20 w-full px-4 lg:px-10 items-center justify-between ">
@@ -154,7 +290,10 @@ const FemIntroSection = () => {
               Register
             </button>
           </div>
-          <button className="flex lg:hidden">
+          <button
+            onClick={() => setToggleMobileNavbar(!toggleMobileNavbar)}
+            className="flex lg:hidden"
+          >
             <IoIosMenu className="w-10 h-10" />
           </button>
         </div>
