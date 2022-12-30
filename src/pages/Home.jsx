@@ -13,6 +13,7 @@ import {
   femInteractiveCardImg,
   femAdviceGenImg,
   femIntroSectionImg,
+  femTestimonialImg,
 } from "../assets";
 
 //----------------------------------------------------------
@@ -122,6 +123,15 @@ const Home = () => {
           femNum="project-10"
           femTitle="Intro section with dropdown navigation"
           femDescription="This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges."
+          femCategory="Junior"
+          categoryColor="palegreen"
+        />
+        <FemCard
+          femId="fem-testimonial-slider"
+          imgURL={femTestimonialImg}
+          femNum="project-11"
+          femTitle="Coding bootcamp testimonials slider"
+          femDescription="This challenge will be a nice test if you're new to JavaScript. It's also a great opportunity to play around with content animations and transitions."
           femCategory="Junior"
           categoryColor="palegreen"
         />

@@ -8,6 +8,7 @@ import FemIntroSignupForm from "./fem-solutions/FemIntroSignupForm";
 import FemInteractiveCard from "./fem-solutions/FemInteractiveCard";
 import FemAdviceGenerator from "./fem-solutions/FemAdviceGenerator";
 import FemIntroSection from "./fem-solutions/FemIntroSection";
+import FemTestimonialSlider from "./fem-solutions/FemTestimonialSlider";
 
 export {
   FemProductCard,
@@ -20,4 +21,5 @@ export {
   FemInteractiveCard,
   FemAdviceGenerator,
   FemIntroSection,
+  FemTestimonialSlider,
 };

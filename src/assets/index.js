@@ -35,7 +35,7 @@ import fem3colIconLuxury from "./fem-06/icon-suvs.svg";
 import femIntroSignupImg from "./fem-07/intro-signup-img.jpg";
 import femIntroErrorIcon from "./fem-07/icon-error.svg";
 
-//? ===================== fem 07 ===================== ?//
+//? ===================== fem 08 ===================== ?//
 import femInteractiveCardImg from "./fem-08/interactive-card-img.jpg";
 import femInteractiveMainBg from "./fem-08/inter-bgmain-desktop.png";
 import femInteractiveMobileBg from "./fem-08/inter-bgmain-mobile.png";
@@ -44,13 +44,13 @@ import femInteractiveCardBack from "./fem-08/bg-card-back.png";
 import femInteractiveIconComplete from "./fem-08/icon-complete.svg";
 import femInteractiveCardLogo from "./fem-08/card-logo.svg";
 
-//? ===================== fem 08 ===================== ?//
+//? ===================== fem 09 ===================== ?//
 import femAdviceGenImg from "./fem-09/advice-generator-img.jpg";
 import femAdviceDividerDesktop from "./fem-09/pattern-divider-desktop.svg";
 import femAdviceDividerMobile from "./fem-09/pattern-divider-mobile.svg";
 import femAdviceDiceIcon from "./fem-09/icon-dice.svg";
 
-//? ===================== fem 08 ===================== ?//
+//? ===================== fem 10 ===================== ?//
 import femIntroSectionImg from "./fem-10/intro-section-img.jpg";
 import femIntroHeroDesktop from "./fem-10/image-hero-desktop.png";
 import femIntroHeroMobile from "./fem-10/image-hero-mobile.png";
@@ -63,6 +63,14 @@ import femIntroIconTodo from "./fem-10/icon-todo.svg";
 import femIntroIconCalendar from "./fem-10/icon-calendar.svg";
 import femIntroIconReminder from "./fem-10/icon-reminders.svg";
 import femIntroIconPlanning from "./fem-10/icon-planning.svg";
+
+//? ===================== fem 11 ===================== ?//
+import femTestimonialImg from "./fem-11/desktop-preview.jpg";
+import femTestiTanyaImg from "./fem-11/image-tanya.jpg";
+import femTestiJohnImg from "./fem-11/image-john.jpg";
+import femTestiQuotes from "./fem-11/pattern-quotes.svg";
+import femTestiCurve from "./fem-11/pattern-curve.svg";
+import femTestiBgImg from "./fem-11/pattern-bg.svg";
 
 export {
   femProductCardImg,
@@ -111,4 +119,10 @@ export {
   femIntroIconCalendar,
   femIntroIconReminder,
   femIntroIconPlanning,
+  femTestimonialImg,
+  femTestiTanyaImg,
+  femTestiJohnImg,
+  femTestiQuotes,
+  femTestiCurve,
+  femTestiBgImg,
 };

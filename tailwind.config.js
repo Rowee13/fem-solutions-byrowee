@@ -71,6 +71,8 @@ module.exports = {
         "fem-10-white": "hsl(0, 0%, 98%)",
         "fem-10-gray": "hsl(0, 0%, 41%)",
         "fem-10-black": "hsl(0, 0%, 8%)",
+        "fem-11-dark-blue": "hsl(240, 38%, 20%)",
+        "fem-11-gray-blue": "hsl(240, 18%, 77%)",
       },
       fontFamily: {
         oswald: ["Oswald", "sans-serif"],
@@ -101,6 +103,7 @@ module.exports = {
         "fem-interactive-card-front":
           "url('./assets/fem-08/bg-card-front.png')",
         "fem-interactive-card-back": "url('./assets/fem-08/bg-card-back.png')",
+        "fem-testimonial-curve": "url('./assets/fem-11/pattern-curve.svg')",
       },
       boxShadow: {
         "nav-shadow": "0 0 2px 3px rgba(147, 225, 216, 0.5)",
@@ -111,6 +114,7 @@ module.exports = {
         "fem-08-card-shadow": "0px 40px 55px 1px rgba(0,0,0,0.25)",
         "fem-09-btn-shadow": "0px 0px 36px 10px rgba(82,255,168,0.75)",
         "fem-10-dropdown-shadow": "0px 10px 50px -5px rgba(20,20,20,0.30)",
+        "fem-11-img-shadow": "0px 30px 25px -10px rgba(32,32,70,0.3)",
       },
     },
   },

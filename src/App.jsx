@@ -13,6 +13,7 @@ import {
   FemInteractiveCard,
   FemAdviceGenerator,
   FemIntroSection,
+  FemTestimonialSlider,
 } from "./pages";
 
 //----------------------------------------------------------
@@ -39,6 +40,10 @@ const AppRoutes = () => {
           <Route path="fem-interactive-card" element={<FemInteractiveCard />} />
           <Route path="fem-advice-generator" element={<FemAdviceGenerator />} />
           <Route path="fem-intro-section" element={<FemIntroSection />} />
+          <Route
+            path="fem-testimonial-slider"
+            element={<FemTestimonialSlider />}
+          />
         </Route>
       </Routes>
     </div>
