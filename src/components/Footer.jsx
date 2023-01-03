@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full">
+    <footer className="w-full">
       <div className="border-b border-bunker-gray-400 w-full h-10 md:mt-[50px]" />
       <div className="flex flex-row justify-between px-5 pt-10 pb-16 font-spacegrotesk text-bunker-gray-100">
         <a href="/">2023. Architech Rowee</a>
@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
