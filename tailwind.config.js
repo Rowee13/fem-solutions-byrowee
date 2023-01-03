@@ -99,6 +99,7 @@ module.exports = {
           "url('./assets/fem-04/pattern-background-desktop.svg')",
         "fem-ordersumbg-mobile":
           "url('./assets/fem-04/pattern-background-mobile.svg')",
+        "fem-stats-hero": "url('./assets/fem-05/stats-hero-image.jpg')",
         "fem-introbg-desktop": "url('./assets/fem-07/bg-intro-desktop.png')",
         "fem-introbg-mobile": "url('./assets/fem-07/bg-intro-mobile.png')",
         "fem-interactive-card-front":

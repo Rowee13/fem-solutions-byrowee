@@ -12,14 +12,6 @@ import {
 const Fem3ColCard = () => {
   return (
     <div className="flex relative bg-fem-06-primary-color h-full py-20 lg:py-0 lg:h-screen w-screen justify-center items-center text-gray-900 overflow-hidden">
-      <Link
-        to="/"
-        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
-      >
-        <IoArrowBackOutline />
-        <button className="pl-3">Back</button>
-      </Link>
-
       <div className="flex flex-col lg:flex-row items-center">
         <div className="w-10/12 md:w-5/12 lg:w-72 bg-fem-06-orange text-fem-06-primary-color p-11 rounded-t-xl lg:rounded-l-xl lg:rounded-r-none">
           <img src={fem3colIconSedan} alt="icon-sedan" />
@@ -63,6 +55,15 @@ const Fem3ColCard = () => {
           </button>
         </div>
       </div>
+
+      {/* == back to homepage button == */}
+      <Link
+        to="/"
+        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
+      >
+        <IoArrowBackOutline />
+        <button className="pl-3">Back</button>
+      </Link>
 
       {/* == credits == */}
       <div className="absolute bottom-3 lg:bottom-10 text-xs text-center">
