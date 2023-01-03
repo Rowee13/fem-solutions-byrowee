@@ -17,7 +17,7 @@ const FemCard = ({
   return (
     <Link
       to={femId}
-      className="w-full md:w-2/4 lg:w-1/3 xl:w-1/4 3xl:w-1/6 bg-bunker-gray-900 hover:bg-bunker-gray-800 hover:scale-110 transition-all ease-in-out duration-300 delay-150 border border-bunker-gray-700"
+      className="w-full md:w-2/4 lg:w-1/3 xl:w-1/4 3xl:w-1/6 bg-bunker-gray-900 border-bunker-gray-600 hover:bg-bunker-gray-800 hover:scale-110 transition-all ease-in-out duration-300 delay-150 border "
     >
       <div className="rounded-lg h-48 overflow-hidden m-4">
         <img

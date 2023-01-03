@@ -20,13 +20,13 @@ import {
 
 const Home = () => {
   return (
-    <div className="flex flex-col lg:p-5 mx-0 xl:mx-24 text-slate-50 text-center bg-bunker-gray-700 bg-opacity-60">
+    <div className="flex flex-col justify-center items-center lg:p-5 mx-0 xl:mx-24 text-slate-50 text-center bg-bunker-gray-700 bg-opacity-60">
       <Header />
-      <div className="flex flex-col items-center px-5 w-full lg:px-52">
-        <h1 className="font-lexenddeca font-black text-3xl lg:text-4xl pt-28">
+      <div className="flex flex-col items-center px-5 lg:px-52">
+        <h1 className="w-full lg:w-10/12 xl:w-7/12 font-lexenddeca font-black text-3xl lg:text-4xl pt-28">
           Welcome to my frontend mentor solutions page!
         </h1>
-        <p className="pt-3 text-zinc-400 font-poppins">
+        <p className="w-11/12 lg:w-9/12 pt-7 text-zinc-400 font-poppins">
           This page is distinct from my website in order to keep things
           organized and to allow me to share my solutions to the frontend mentor
           challenges. All of the outputs here were created using React and
@@ -41,7 +41,7 @@ const Home = () => {
           femNum="project-01"
           femTitle="Product preview card"
           femDescription="This HTML & CSS-only challenge will be perfect for anyone starting
-            to build responsive projects."
+              to build responsive projects."
           femCategory="Newbie"
           categoryColor="mediumturquoise"
         />

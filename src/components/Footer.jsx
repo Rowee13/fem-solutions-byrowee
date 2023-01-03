@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="w-full">
       <div className="border-b border-bunker-gray-400 w-full h-10 md:mt-[50px]" />
       <div className="flex flex-row justify-between px-5 pt-10 pb-16 font-spacegrotesk text-bunker-gray-100">
         <a href="/">2023. Architech Rowee</a>
@@ -13,7 +13,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <FaGithub className="w-6 h-6" />
+            <FaGithub className="w-6 h-6 hover:text-riptide-accent hover:scale-125" />
           </a>
           <a
             href="https://www.linkedin.com/in/roweeapor/"
@@ -21,7 +21,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <FaLinkedin className="w-6 h-6" />
+            <FaLinkedin className="w-6 h-6 hover:text-riptide-accent hover:scale-125" />
           </a>
         </div>
       </div>
