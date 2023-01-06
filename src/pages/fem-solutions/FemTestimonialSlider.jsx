@@ -71,7 +71,7 @@ const FemTestimonialSlider = () => {
         /> */}
       </div>
 
-      {/* == back to main page == */}
+      {/* == back to home button == */}
       <Link
         to="/"
         className="btn btn-outline btn-accent absolute top-5 left-5 mb-6"

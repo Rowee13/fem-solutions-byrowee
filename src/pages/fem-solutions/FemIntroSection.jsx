@@ -26,7 +26,7 @@ const FemIntroSection = () => {
   const [toggleMobileNavbar, setToggleMobileNavbar] = useState(false);
 
   return (
-    <div className="flex flex-col relative bg-fem-10-white h-full sm:h-screen w-screen font-epilogue text-fem-10-gray overflow-hidden">
+    <div className="flex flex-col relative bg-fem-10-white h-full lg:h-screen w-screen font-epilogue text-fem-10-gray overflow-hidden">
       {/* == mobile side navbar == */}
       {toggleMobileNavbar && (
         <div className="flex absolute lg:hidden slide-left">
@@ -300,19 +300,19 @@ const FemIntroSection = () => {
       </div>
 
       {/* == hero content == */}
-      <div className="flex flex-col-reverse lg:flex-row">
+      <div className="flex flex-col-reverse lg:flex-row pb-20">
         <div className="flex flex-col lg:ml-40 items-center lg:items-start justify-start lg:justify-end text-fem-10-black">
           <h1 className="font-bold text-4xl lg:text-7xl pt-10 text-center lg:text-left">
             Make <br className="hidden lg:block" /> remote work
           </h1>
-          <p className="py-7 lg:py-16 w-11/12 lg:w-8/12 text-lg lg:text-xl text-center lg:text-left">
+          <p className="pb-7 lg:pb-16 pt-2 w-11/12 lg:w-8/12 text-lg lg:text-xl text-center lg:text-left">
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
           <button className="bg-fem-10-black py-3 px-7 mb-14 lg:mb-24 text-fem-10-white font-bold text-xl rounded-xl hover:text-fem-10-black hover:bg-fem-10-white hover:border-2 hover:border-fem-10-black">
             Learn more
           </button>
-          <div className="flex flex-row justify-center lg:justify-between items-center gap-6 lg:gap-10">
+          <div className="flex flex-row flex-wrap justify-center lg:justify-between items-center gap-6 lg:gap-10 pb-28">
             <img src={femIntroDatabiz} alt="databiz" className="h-4 lg:h-5" />
             <img
               src={femIntroAudiophile}
@@ -337,17 +337,17 @@ const FemIntroSection = () => {
         </div>
       </div>
 
-      {/* == back to main page== */}
+      {/* == back to home button == */}
       <Link
         to="/"
-        className="btn btn-outline btn-accent absolute bottom-1 left-7 mb-6"
+        className="btn btn-outline btn-accent absolute bottom-0 left-6 mb-6"
       >
         <IoArrowBackOutline />
         <button className="pl-3">Back</button>
       </Link>
 
       {/* == credits == */}
-      <div className="absolute bottom-7 right-10 text-xs text-right">
+      <div className="absolute bottom-5 right-6 text-xs text-right">
         <p>
           Challenge by{" "}
           <a

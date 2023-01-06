@@ -6,11 +6,7 @@ import { IoArrowBackOutline } from "react-icons/io5";
 const FemIntroSignupForm = () => {
   return (
     <div className="flex relative bg-fem-07-primary-red bg-fem-introbg-mobile lg:bg-fem-introbg-desktop bg-opacity-90 bg-no-repeat bg-cover h-full md:h-screen py-20 lg:py-0 lg:h-screen w-screen justify-center items-center text-gray-900 overflow-hidden">
-      <Link to="/" className="btn btn-accent absolute top-4 left-4 mb-6">
-        <IoArrowBackOutline />
-        <button className="pl-3">Back</button>
-      </Link>
-
+      {/* == challenge solution == */}
       <div className="flex flex-col lg:flex-row font-poppins w-10/12 md:w-8/12 lg:w-9/12">
         <div className="flex flex-col text-slate-50 justify-center lg:pr-20 pt-5 lg:pt-0 pb-20 lg:pb-0 gap-y-3 lg:gap-y-8 text-center lg:text-left">
           <h1 className="font-black text-3xl lg:text-6xl">
@@ -60,6 +56,12 @@ const FemIntroSignupForm = () => {
           </form>
         </div>
       </div>
+
+      {/* == back to home button == */}
+      <Link to="/" className="btn btn-accent absolute top-4 left-4 mb-6">
+        <IoArrowBackOutline />
+        <button className="pl-3">Back</button>
+      </Link>
 
       {/* == credits == */}
       <div className="absolute bottom-3 lg:bottom-10 text-xs text-center text-slate-50">

@@ -29,14 +29,7 @@ const FemRatingComponent = () => {
 
   return (
     <div className="flex relative justify-center items-center h-screen overflow-hidden bg-fem-02-darkbg">
-      <Link
-        to="/"
-        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
-      >
-        <IoArrowBackOutline />
-        <button className="pl-3">Back</button>
-      </Link>
-
+      {/* == challenge solution == */}
       <div className="bg-gradient-to-b from-fem-02-cardbg1 to-fem-02-cardbg2 w-full md:w-6/12 lg:w-1/4 rounded-3xl m-6 p-8 font-overpass">
         {ratingSubmitted ? (
           <div>
@@ -92,6 +85,15 @@ const FemRatingComponent = () => {
           </div>
         )}
       </div>
+
+      {/* == back to home button == */}
+      <Link
+        to="/"
+        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
+      >
+        <IoArrowBackOutline />
+        <button className="pl-3">Back</button>
+      </Link>
 
       {/* == credits == */}
       <div className="absolute bottom-10 text-xs text-center text-fem-02-medgray">

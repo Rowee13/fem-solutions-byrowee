@@ -29,14 +29,6 @@ const FemAdviceGenerator = () => {
 
   return (
     <div className="flex relative justify-center items-center font-outfit h-screen overflow-hidden bg-fem-09-dark-blue">
-      <Link
-        to="/"
-        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
-      >
-        <IoArrowBackOutline />
-        <button className="pl-3">Back</button>
-      </Link>
-
       <div className="flex flex-col relative w-full md:w-2/3 lg:w-1/3 h-2/5 lg:h-2/5 mx-5 px-6 py-16 bg-fem-09-dgray-blue rounded-xl justify-between items-center text-center font-manrope">
         {Object.keys(getAdvice).length > 0 ? (
           <div className="px-4">
@@ -67,6 +59,15 @@ const FemAdviceGenerator = () => {
           />
         </button>
       </div>
+
+      {/* == back to home button == */}
+      <Link
+        to="/"
+        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
+      >
+        <IoArrowBackOutline />
+        <button className="pl-3">Back</button>
+      </Link>
 
       {/* == credits == */}
       <div className="absolute bottom-3 lg:bottom-10 text-xs text-center">

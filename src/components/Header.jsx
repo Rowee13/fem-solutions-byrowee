@@ -9,7 +9,7 @@ const Header = () => {
         href="/"
         className="text-slate-50 pl-5 lg:pl-10 uppercase text-xl lg:text-2xl font-extrabold"
       >
-        Architech Rowee
+        ArchitechRowee
       </a>
       <div className="flex flex-row font-overpass items-center gap-4 pr-5 lg:pr-10">
         <h4 className="text-gray-400 text-sm lg:text-base">github repo</h4>

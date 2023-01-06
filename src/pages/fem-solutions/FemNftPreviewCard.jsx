@@ -14,14 +14,7 @@ import {
 const FemNftPreviewCard = () => {
   return (
     <div className="flex relative justify-center items-center font-outfit h-screen overflow-hidden bg-fem-03-mainbg">
-      <Link
-        to="/"
-        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
-      >
-        <IoArrowBackOutline />
-        <button className="pl-3">Back</button>
-      </Link>
-
+      {/* == challenge solution == */}
       <div className="flex flex-col w-80 bg-fem-03-cardbg rounded-2xl p-6">
         <div className="relative rounded-xl object-contain overflow-hidden cursor-pointer">
           <div className="absolute h-full w-full object-fit opacity-0 z-20 hover:opacity-100 hover:bg-fem-03-text2 hover:bg-opacity-40 transition-all ease-in-out delay-100 duration-150">
@@ -63,6 +56,15 @@ const FemNftPreviewCard = () => {
           </p>
         </div>
       </div>
+
+      {/* == back to home button == */}
+      <Link
+        to="/"
+        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
+      >
+        <IoArrowBackOutline />
+        <button className="pl-3">Back</button>
+      </Link>
 
       {/* == credits == */}
       <div className="absolute bottom-10 text-xs text-center text-fem-03-text1">

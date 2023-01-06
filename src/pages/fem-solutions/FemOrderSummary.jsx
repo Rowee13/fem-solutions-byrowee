@@ -8,14 +8,7 @@ import { femOrderHeroImg, femOrderMusicIcon } from "../../assets";
 const FemOrderSummary = () => {
   return (
     <div className="flex relative h-screen w-screen justify-center items-center bg-fem-04-pale-blue bg-fem-ordersumbg-mobile lg:bg-fem-ordersumbg-desktop bg-no-repeat bg-cover xl:bg-contain bg-center xl:bg-top text-gray-900 overflow-hidden">
-      <Link
-        to="/"
-        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
-      >
-        <IoArrowBackOutline />
-        <button className="pl-3">Back</button>
-      </Link>
-
+      {/* == challenge solution == */}
       <div className="flex flex-col justify-center items-center w-96 bg-slate-50 rounded-2xl font-redhatdisplay">
         <div className="object-cover w-full rounded-t-2xl overflow-hidden">
           <img src={femOrderHeroImg} alt="music-order" />
@@ -46,6 +39,15 @@ const FemOrderSummary = () => {
           </span>
         </div>
       </div>
+
+      {/* == back to home button == */}
+      <Link
+        to="/"
+        className="btn btn-outline btn-accent absolute top-4 left-4 mb-6"
+      >
+        <IoArrowBackOutline />
+        <button className="pl-3">Back</button>
+      </Link>
 
       {/* == credits == */}
       <div className="absolute bottom-10 text-xs text-center">

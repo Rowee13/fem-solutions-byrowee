@@ -46,14 +46,6 @@ const FemInteractiveCard = () => {
 
   return (
     <div className="relative bg-fem-08-white h-screen w-full text-fem-08-dark-violet font-spacegrotesk overflow-hidden">
-      <Link
-        to="/"
-        className="btn btn-outline btn-accent absolute top-4 right-4 mb-6"
-      >
-        <IoArrowBackOutline />
-        <button className="pl-3">Back</button>
-      </Link>
-
       {/* == cards == */}
       {/* <div>
         <div className="absolute top-48 md:top-56 lg:top-28 xl:top-44 left-5 md:left-28 lg:left-20 xl:left-44 right-16 lg:right-[400px] xl:right-[1000px] z-30">
@@ -163,9 +155,6 @@ const FemInteractiveCard = () => {
                   onChange={(e) => setCardNumber(e.target.value)}
                   className="py-2 px-5 bg-fem-08-white border border-fem-08-light-gray rounded-lg"
                 />
-                {/* <h5 className="text-fem-08-error text-sm">
-                  Wrong format! Numbers only.
-                </h5> */}
               </div>
               <div className="flex flex-row items-center gap-x-4 pb-4 lg:pb-6">
                 <div className="flex flex-col w-6/12">
@@ -234,6 +223,15 @@ const FemInteractiveCard = () => {
           )}
         </div>
       </div>
+
+      {/* == back to home button == */}
+      <Link
+        to="/"
+        className="btn btn-outline btn-accent absolute top-4 right-4 mb-6"
+      >
+        <IoArrowBackOutline />
+        <button className="pl-3">Back</button>
+      </Link>
 
       {/* == credits == */}
       <div className="absolute bottom-3 lg:bottom-10 right-5 lg:right-10 text-xs text-end">

@@ -18,7 +18,7 @@ const ColumnCard = ({ columnTitle, description, icon, bgColor, borderRd }) => (
       {columnTitle}
     </h1>
     <p className="text-fem-06-secondary-color pb-14">{description}</p>
-    <button className="bg-fem-06-primary-color text-fem-06-orange font-bold px-8 py-3 rounded-full hover:bg-transparent hover:border-2 hover:border-fem-06-primary-color hover:text-fem-06-primary-color my-3">
+    <button className="bg-fem-06-primary-color text-fem-06-orange font-bold px-8 py-3 rounded-full border-2 border-fem-06-primary-color hover:bg-transparent hover:text-fem-06-primary-color my-3">
       Learn More
     </button>
   </div>
