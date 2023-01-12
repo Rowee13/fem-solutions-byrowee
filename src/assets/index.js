@@ -72,30 +72,40 @@ import femTestiQuotes from "./fem-11/pattern-quotes.svg";
 import femTestiCurve from "./fem-11/pattern-curve.svg";
 import femTestiBgImg from "./fem-11/pattern-bg.svg";
 
+//? ===================== fem 12 ===================== ?//
+import femSunnysideImg from "./fem-12/desktop-preview.jpg";
+
 export {
   femProductCardImg,
   femProductImgDesktop,
   femProductImgMobile,
+  //*fem02
   femRatingCardImg,
   iconStar,
   illustrationThankYou,
+  //*fem03
   femNftPreviewCardImg,
   imgEquilibrium,
   femNftIconClock,
   femNftIconEther,
   femNftIconView,
   femNftImgAvatar,
+  //*fem04
   femOrderSumImg,
   femOrderHeroImg,
   femOrderMusicIcon,
+  //*fem05
   femStatsCardImg,
   femStatsHeroImg,
+  //*fem06
   fem3colCardImg,
   fem3colIconSedan,
   fem3colIconSuvs,
   fem3colIconLuxury,
+  //*fem07
   femIntroSignupImg,
   femIntroErrorIcon,
+  //*fem08
   femInteractiveCardImg,
   femInteractiveMainBg,
   femInteractiveMobileBg,
@@ -103,10 +113,12 @@ export {
   femInteractiveCardBack,
   femInteractiveIconComplete,
   femInteractiveCardLogo,
+  //*fem09
   femAdviceGenImg,
   femAdviceDividerDesktop,
   femAdviceDividerMobile,
   femAdviceDiceIcon,
+  //*fem10
   femIntroSectionImg,
   femIntroHeroDesktop,
   femIntroHeroMobile,
@@ -119,10 +131,13 @@ export {
   femIntroIconCalendar,
   femIntroIconReminder,
   femIntroIconPlanning,
+  //*fem11
   femTestimonialImg,
   femTestiTanyaImg,
   femTestiJohnImg,
   femTestiQuotes,
   femTestiCurve,
   femTestiBgImg,
+  //*fem12
+  femSunnysideImg,
 };

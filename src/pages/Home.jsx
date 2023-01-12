@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import FemCard from "../components/FemCard";
+import FemCardExt from "../components/FemCardExt";
 import Footer from "../components/Footer";
 
 import {
@@ -14,6 +15,7 @@ import {
   femAdviceGenImg,
   femIntroSectionImg,
   femTestimonialImg,
+  femSunnysideImg,
 } from "../assets";
 
 //----------------------------------------------------------
@@ -27,7 +29,7 @@ const Home = () => {
           Welcome to my frontend mentor solutions page!
         </h1>
         <p className="w-11/12 lg:w-9/12 pt-7 text-zinc-400 font-poppins">
-          This page is distinct from my website in order to keep things
+          This page is separated from my website in order to keep things
           organized and to allow me to share my solutions to the frontend mentor
           challenges. All of the outputs here were created using React and
           Tailwind CSS. Click the GitHub icon above to see the repo. Enjoy!
@@ -132,6 +134,16 @@ const Home = () => {
           femNum="project-11"
           femTitle="Coding bootcamp testimonials slider"
           femDescription="This challenge will be a nice test if you're new to JavaScript. It's also a great opportunity to play around with content animations and transitions."
+          femCategory="Junior"
+          categoryColor="palegreen"
+        />
+        <FemCardExt
+          link="https://rowee13.github.io/fem-sunnyside-agency/"
+          githubRepo="https://github.com/Rowee13/fem-sunnyside-agency"
+          imgURL={femSunnysideImg}
+          femNum="project-12"
+          femTitle="Sunnyside agency landing page"
+          femDescription="This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS."
           femCategory="Junior"
           categoryColor="palegreen"
         />
